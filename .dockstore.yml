@@ -1,5 +1,4 @@
 version: 1.2
 workflows:
-  - subclass: WDL
-    authors:
-      - name: Leyla Tarhan
+    - subclass: WDL
+      primaryDescriptorPath: /testWDL.wdl  # absolute path
